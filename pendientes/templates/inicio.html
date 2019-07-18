@@ -1,0 +1,45 @@
+<html>
+<head>
+    <style>
+        body { 
+            background-color:limegreen;
+            font-family: 'Comic Sans MS';
+            }
+        h1 {  
+            color: #ffffff;
+            text-align: center;
+        }
+        li { 
+            font-family: 'Courier New', Courier, monospace;
+         }
+    </style>
+</head>
+    <body>
+        <h1> Historia del Paraguay</h1>
+        <img src=""><a></a>
+    Hola me llamo {{ nombre }} tengo {{ edad }} y mis hobbies son
+    {% for x in hobbies %}
+        <li>  {{ x }}  </li>
+    {% endfor %}
+        <p> Tereho almacempe</p>
+    {% for tarea in lista_tareas %}
+        <li> {{ tarea.titulo }}: {{ tarea.descripcion }} </li>
+    {% endfor %}
+        <h2> Vamos a estudiar sobre la nuestra historia</h2>
+        <p> Que loco esto</p>
+        <h3> El Paraguay esta dividido en 2 Regiones</h3>
+        <h4> Region Oriental</h4>
+            <li> La Region Oriental comprende; 17 Departamentos</li>
+            <f5> Los departamentos de la Region Oriental son:</f5>
+            <li> Concepcion</li>
+            <li> San Pedro</li>
+            <li> Amambay</li>
+            <li> Central</li>
+        <h5> Region Occidental</h5>
+            <li> La Region Occidental comprende; 3 Departamentos</li>
+            <f6> Los de partamentos de Region Occidental son:</f6>
+            <li> Alto Paraguay</li>
+            <li> Boqueron</li>
+            <li> Pte. Hayes</li>
+    </body>
+</html>
